@@ -1,0 +1,60 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type:disc;
+    color: tomato;
+}
+
+img {
+    position: relative;
+}
+
+.nazwa {
+    color: tomato;
+    
+}
+
+.nazwa2 {
+    color: black;
+}
+
+.nazwa,
+.nazwa2 {
+    display: inline-block;
+    margin-top: 130px;
+    margin-bottom: 110px;
+}
+
+.pomidor {
+    height: 250px;
+    width: auto;
+    float: left;
+}
+
+.lista.przepisy {
+    font-size: 18px;
+    margin: 10px;
+    line-height: 1.6;
+    /* background-color: #e2b260; */
+}
+
+div a {
+    color: black;
+}
+
+.list-ingredients li {
+    color: black;
+    margin: 3px;
+}
+
+h3,
+h1 {
+    color: tomato;
+}
