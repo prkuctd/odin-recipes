@@ -51,10 +51,58 @@ div a {
 
 .list-ingredients li {
     color: black;
-    margin: 3px;
+    margin-left: 3px;   
+    margin-bottom: 5px;            
 }
 
-h3,
+
+.logo {
+    margin-bottom: 90px;
+}
+
+.preview {
+    float: left;
+    margin-right: 5px;
+    height: 350px;
+    
+}
+
+.recipe-ingredients,
+.separator, 
+.directions {
+    display: inline-block;
+}
+
+.recipe-ingredients,
+.directions {
+    width: 650px;
+    height: 500px;
+    margin-left: 40px;
+    margin-right: -280px;     
+    padding: 5px;
+}
+
+.separator {
+    border-left: 0.5em dotted tomato;
+    height: 220px;
+}
+
 h1 {
+    word-spacing: 1ch;
     color: tomato;
+}
+
+h3 {
+    color: #e2b260;
+}
+
+.description p {
+    margin-left: 500px;
+}
+
+
+
+.title {
+    text-align: left;
+    margin-bottom: 30px;
 }
